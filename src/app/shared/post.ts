@@ -1,4 +1,6 @@
 export default class Post {
-  title: string;
-  content: string;
+
+  public constructor(
+    public title: string,
+    public content: string ) { }
 }
